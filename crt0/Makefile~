@@ -1,0 +1,4 @@
+all:crt0.o assert.o
+
+crt0.o:crt0.S
+	psp-gcc -g -c -xassembler -O -o $@ $^

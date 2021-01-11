@@ -1,0 +1,7 @@
+#include <assert.h>
+
+#if PSP
+void __assert,(const char *, int, const char *)
+{
+}
+#endif
